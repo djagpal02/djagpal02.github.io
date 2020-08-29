@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -111,13 +113,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: white;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #00e4ff !important;
 			text-decoration: none;
 		}
 
@@ -2464,8 +2466,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #00e4ff;
+			color: #00e4ff !important;
 		}
 
 		input[type="submit"]:active,
@@ -2473,8 +2475,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #00e4ff;
+			color: #00e4ff !important;
 		}
 
 		input[type="submit"].icon,
@@ -2591,14 +2593,17 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1f1815;
+		background-color: black;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(235, 86, 52, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(235, 86, 52, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(235, 86, 52, 137, 0.5) 5%, rgba(0, 228, 255, 0.35));
+		background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(235, 86, 52, 0.5) 5%, rgba(0, 228, 255, 0.35));
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
-		height: 100%;
+		height: 120%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
